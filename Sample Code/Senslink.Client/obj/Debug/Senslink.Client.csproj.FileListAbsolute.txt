@@ -1,0 +1,22 @@
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Debug\Senslink.Client.dll.config
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Debug\Senslink.Client.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Debug\Senslink.Client.pdb
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Debug\Newtonsoft.Json.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Debug\System.Net.Http.Extensions.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Debug\System.Net.Http.Formatting.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Debug\System.Net.Http.Primitives.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Debug\System.Security.Cryptography.Encoding.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Debug\System.Security.Cryptography.Primitives.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Debug\Newtonsoft.Json.xml
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\obj\Debug\Senslink.Client.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\obj\Debug\Senslink.Client.pdb
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Debug\MQTTnet.dll
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\Senslink.Client\bin\Debug\Senslink.Client.dll.config
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\Senslink.Client\bin\Debug\Senslink.Client.dll
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\Senslink.Client\bin\Debug\Senslink.Client.pdb
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\Senslink.Client\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\Senslink.Client\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\Senslink.Client\obj\Debug\Senslink.Client.dll
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\Senslink.Client\obj\Debug\Senslink.Client.pdb

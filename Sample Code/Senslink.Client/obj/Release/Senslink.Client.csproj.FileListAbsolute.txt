@@ -1,0 +1,15 @@
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Release\Senslink.Client.dll.config
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Release\Senslink.Client.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Release\Senslink.Client.pdb
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Release\MQTTnet.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Release\Newtonsoft.Json.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Release\System.Net.Http.Extensions.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Release\System.Net.Http.Formatting.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Release\System.Net.Http.Primitives.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Release\System.Security.Cryptography.Algorithms.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Release\System.Security.Cryptography.Encoding.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Release\System.Security.Cryptography.Primitives.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Release\System.Security.Cryptography.X509Certificates.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\bin\Release\Newtonsoft.Json.xml
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\obj\Release\Senslink.Client.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.Client\obj\Release\Senslink.Client.pdb

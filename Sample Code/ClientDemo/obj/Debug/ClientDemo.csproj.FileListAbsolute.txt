@@ -1,0 +1,30 @@
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\ClientDemo.exe.config
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\obj\Debug\ClientDemo.csprojResolveAssemblyReference.cache
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\ClientDemo.exe
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\ClientDemo.pdb
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\Newtonsoft.Json.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\System.Net.Http.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\System.Net.Http.Extensions.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\System.Net.Http.Formatting.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\System.Net.Http.Primitives.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\System.Security.Cryptography.Encoding.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\System.Security.Cryptography.Primitives.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\Newtonsoft.Json.xml
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\obj\Debug\ClientDemo.exe
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\obj\Debug\ClientDemo.pdb
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\Senslink.Client.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\MQTTnet.dll
+E:\TFS2015\Developing\Senslink 3.0\Senslink.UserApiClient\ClientDemo\bin\Debug\Senslink.Client.pdb
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\ClientDemo\bin\Debug\ClientDemo.exe.config
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\ClientDemo\obj\Debug\ClientDemo.exe
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\ClientDemo\obj\Debug\ClientDemo.pdb
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\ClientDemo\bin\Debug\ClientDemo.exe
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\ClientDemo\bin\Debug\ClientDemo.pdb
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\ClientDemo\bin\Debug\Senslink.Client.dll
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\ClientDemo\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\ClientDemo\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\ClientDemo\bin\Debug\MQTTnet.dll
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\ClientDemo\bin\Debug\Senslink.Client.pdb
+E:\OneDrive\Senslink 3.0 說明文件及客戶端範例程式\Sample Code\ClientDemo\obj\Debug\ClientDemo.csprojResolveAssemblyReference.cache

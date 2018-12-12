@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3BDC5C12-1D15-41D8-9FDC-8D0B75FA16F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Senslink.Client</RootNamespace>
+    <AssemblyName>Senslink.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MQTTnet, Version=2.8.4.0, Culture=neutral, PublicKeyToken=b69712f52770c0a7, processorArchitecture=MSIL">
+      <HintPath>..\packages\MQTTnet.2.8.4\lib\net452\MQTTnet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net46\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net46\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enum\AggregateCalculationMethods.cs" />
+    <Compile Include="Enum\CalculateRobotTypes.cs" />
+    <Compile Include="Enum\ChartProvider.cs" />
+    <Compile Include="Enum\DisplayFormats.cs" />
+    <Compile Include="Enum\ExternalMqttPacketTypes.cs" />
+    <Compile Include="Enum\LogicLayerObjectGuidTypes.cs" />
+    <Compile Include="Enum\MqttBrokerConnectionStatus.cs" />
+    <Compile Include="Enum\PriorityIndexes.cs" />
+    <Compile Include="Enum\RdaqDeviceTypes.cs" />
+    <Compile Include="Enum\RecordingMethods.cs" />
+    <Compile Include="Enum\RemoteConfigStatuses.cs" />
+    <Compile Include="Enum\TelecomTypes.cs" />
+    <Compile Include="Enum\TimeSeriesChartTypes.cs" />
+    <Compile Include="Enum\TimeStampTypes.cs" />
+    <Compile Include="Enum\TransportLayerTypes.cs" />
+    <Compile Include="Models\[Telecom]\TelecomBaseInfo.cs" />
+    <Compile Include="MqttClient.cs" />
+    <Compile Include="Models\InfoBase.cs" />
+    <Compile Include="Models\[Account]\UserBasicInfo.cs" />
+    <Compile Include="Models\[Account]\UserInfo.cs" />
+    <Compile Include="Models\[Data]\DataPoint.cs" />
+    <Compile Include="Models\[Data]\DataSeries.cs" />
+    <Compile Include="Models\[FileSystem]\BoundingBox.cs" />
+    <Compile Include="Models\[FileSystem]\FileDetails.cs" />
+    <Compile Include="Models\[FileSystem]\FileSharedLevel.cs" />
+    <Compile Include="Models\[FileSystem]\NetCDFLayer.cs" />
+    <Compile Include="Models\[FileSystem]\OpenDapQuery.cs" />
+    <Compile Include="Models\[Formula]\OneVariableFormulaInfo.cs" />
+    <Compile Include="Models\[OAuth2]\OAuth2ThirdPartyClientInfo.cs" />
+    <Compile Include="Models\[PhysicalQuantity]\CategoryInfo.cs" />
+    <Compile Include="Models\[PhysicalQuantity]\PhysicalQuantityInfo.cs" />
+    <Compile Include="Models\[RasterMap]\FileMetaData.cs" />
+    <Compile Include="Models\[RdaqDevice]\RdaqCalculateRobotInfo.cs" />
+    <Compile Include="Models\[RdaqDevice]\RdaqCalculateRobotInfo.RdaqRobotEstNormalPdfParamsInfoInfo.cs" />
+    <Compile Include="Models\[RdaqDevice]\RdaqCalculateRobotInfo.RdaqRobotMultiIVariablesInfo.cs" />
+    <Compile Include="Models\[RdaqDevice]\RdaqCalculateRobotInfo.RdaqRobotSumAndIntegralInfo.cs" />
+    <Compile Include="Models\[RdaqDevice]\RdaqDeviceBaseInfo.cs" />
+    <Compile Include="Models\[RdaqDevice]\RdaqDeviceInfo.RdaqGenericInfo.cs" />
+    <Compile Include="Models\[RdaqDevice]\RdaqDeviceInfo.RdaqModbusMasterInfo.cs" />
+    <Compile Include="Models\[RdaqDevice]\RdaqDeviceInfo.RdaqOpcUaClientInfo.cs" />
+    <Compile Include="Models\[RdaqDevice]\RdaqDeviceInfo.RdaqSensMateSeriesInfo.cs" />
+    <Compile Include="Models\[RdaqDevice]\SensMateSeriesInfo.RdaqSenSmartWlsInfo.cs" />
+    <Compile Include="Models\[Spark]\JobInfo.cs" />
+    <Compile Include="Models\[Spark]\ModelInfo.cs" />
+    <Compile Include="Models\[Spark]\S3Base.cs" />
+    <Compile Include="Models\[Spark]\SparkApi.cs" />
+    <Compile Include="Models\[Spark]\SparkBase.cs" />
+    <Compile Include="Models\[Spark]\SubmitJobParams.cs" />
+    <Compile Include="Models\[Station]\StationGroupInfo.cs" />
+    <Compile Include="Models\[Station]\StationInfo.cs" />
+    <Compile Include="OAuth2Client.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserApiClient.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\[RdaqDevice]\CalculatorRobot.pdf" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
